@@ -3,3 +3,23 @@ to delete local branch
 
 to delete remote branch
 - git push origin :dev
+
+Annotated Tags:
+- They can include metadata like the tagger's name, email, and a message.
+- Useful for release versions or milestones.
+- ex :git tag -a v1.7 -m "Version 1.7"
+
+Lightweight Tags:
+- Simple references to a specific commit
+- No metadata or message
+- ex: git tag v1.7
+
+to list tags :
+- git tag
+
+to delete tags locally :
+- git tag -d v1.7
+  to delete tags remtly :
+  - git push origin --delete v1.7
+
+  
