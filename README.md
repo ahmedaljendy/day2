@@ -14,6 +14,10 @@ Lightweight Tags:
 - No metadata or message
 - ex: git tag v1.7
 
+when to use rebase :
+- to incorporate upstream changes into your branch
+- to avoid merge commits in Feature Branches
+  
 to list tags :
 - git tag
 
@@ -23,5 +27,5 @@ to delete tags remtly :
 - git push origin --delete v1.7
   
 
-![cat](https://gratisography.com/photo/cool-cat/)
+![Alt text](images/basket.png)
   
