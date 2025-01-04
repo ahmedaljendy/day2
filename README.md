@@ -23,7 +23,8 @@ to list tags :
 
 to delete tags locally :
 - git tag -d v1.7
-to delete tags remtly :
+
+to delete tags remotly :
 - git push origin --delete v1.7
   
 
